@@ -11,7 +11,7 @@ plugins {
 
 group = "fyi.pauli"
 
-version = "1.5"
+version = "1.4"
 
 val authors = setOf(
 	"kxmpxtxnt"
