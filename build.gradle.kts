@@ -19,7 +19,7 @@ val authors = setOf(
 
 repositories {
 	mavenCentral()
-	maven("https://repo.nyon.dev")
+	maven("https://repo.nyon.dev/releases")
 }
 
 val githubRepo = "ichor-dev/ichor-catalog"
