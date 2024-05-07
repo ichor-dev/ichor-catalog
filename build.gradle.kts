@@ -58,7 +58,7 @@ catalog {
 		library("ktor.serialization", "io.ktor", "ktor-serialization-kotlinx-json").versionRef("ktor")
 
 		bundle(
-			"ktor-server", listOf(
+			"ktor.server", listOf(
 				"ktor.cio",
 				"ktor.core",
 				"ktor.network",
@@ -72,7 +72,7 @@ catalog {
 		library("ktor.client.negotiation", "io.ktor", "ktor-client-content-negotiation").versionRef("ktor")
 
 		bundle(
-			"ktor-server", listOf(
+			"ktor.client", listOf(
 				"ktor.client",
 				"ktor.client.cio",
 				"ktor.client.negotiation",
