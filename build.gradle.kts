@@ -39,13 +39,13 @@ catalog {
 
 		library("kotlinx.io", "org.jetbrains.kotlinx", "kotlinx-io-core").version("0.3.2")
 		library("kotlinx.datetime", "org.jetbrains.kotlinx", "kotlinx-datetime").version("0.5.0")
-		library("kotlinx.core", "org.jetbrains.kotlinx", "kotlinx-serialization-core").version("1.6.3")
+		library("kotlinx.serialization", "org.jetbrains.kotlinx", "kotlinx-serialization-core").version("1.6.3")
 		library("kotlinx.json", "org.jetbrains.kotlinx", "kotlinx-serialization-json").version("1.6.3")
 		library("kotlinx.coroutines", "org.jetbrains.kotlinx", "kotlinx-coroutines-core").version("1.8.0")
 
 		bundle(
 			"kotlinx", listOf(
-				"kotlinx.io", "kotlinx.datetime", "kotlinx.json", "kotlinx.coroutines"
+				"kotlinx.io", "kotlinx.datetime", "kotlinx.json", "kotlinx.coroutines", "kotlinx.serialization"
 			)
 		)
 
