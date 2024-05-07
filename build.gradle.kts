@@ -11,7 +11,7 @@ plugins {
 
 group = "fyi.pauli"
 
-version = "1.4"
+version = "1.5"
 
 val authors = setOf(
 	"kxmpxtxnt"
@@ -28,7 +28,7 @@ catalog {
 	versionCatalog {
 		version("kotlin", "1.9.23")
 
-		plugin("jetbrains.dokka", "org.jetbrains.dokka").versionRef("kotlin")
+		plugin("jetbrains.dokka", "org.jetbrains.dokka").version("1.9.20")
 		plugin("jetbrains.multiplatform", "org.jetbrains.kotlin.multiplatform").versionRef("kotlin")
 		plugin("jetbrains.serialization", "org.jetbrains.kotlin.plugin.serialization").versionRef("kotlin")
 
