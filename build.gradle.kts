@@ -26,7 +26,7 @@ val githubRepo = "ichor-dev/ichor-catalog"
 
 catalog {
 	versionCatalog {
-		version("kotlin", "1.9.23")
+		version("kotlin", "1.9.24")
 
 		plugin("jetbrains.dokka", "org.jetbrains.dokka").version("1.9.20")
 		plugin("jetbrains.multiplatform", "org.jetbrains.kotlin.multiplatform").versionRef("kotlin")
@@ -37,7 +37,7 @@ catalog {
 		library("pauli.prorialize", "fyi.pauli.prorialize", "prorialize").version("1.1.3")
 		library("pauli.nbterialize", "fyi.pauli.nbterialize", "nbterialize").version("1.0.3")
 
-		library("kotlinx.io", "org.jetbrains.kotlinx", "kotlinx-io-core").version("0.3.2")
+		library("kotlinx.io", "org.jetbrains.kotlinx", "kotlinx-io-core").version("0.3.3")
 		library("kotlinx.datetime", "org.jetbrains.kotlinx", "kotlinx-datetime").version("0.5.0")
 		library("kotlinx.serialization", "org.jetbrains.kotlinx", "kotlinx-serialization-core").version("1.6.3")
 		library("kotlinx.json", "org.jetbrains.kotlinx", "kotlinx-serialization-json").version("1.6.3")
