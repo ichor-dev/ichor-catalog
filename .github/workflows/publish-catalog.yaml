@@ -3,8 +3,7 @@ name: Publish catalog
 on:
   push:
     paths:
-      - ./build.gradle.kts
-      - ./settings.gradle.kts
+      - '*.gradle.kts'
 
 permissions:
   contents: write
