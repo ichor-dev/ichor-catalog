@@ -38,11 +38,11 @@ catalog {
 		library("pauli.prorialize", "fyi.pauli.prorialize", "prorialize").version("1.1.3")
 		library("pauli.nbterialize", "fyi.pauli.nbterialize", "nbterialize").version("1.0.3")
 
-		library("kotlinx.io", "org.jetbrains.kotlinx", "kotlinx-io-core").version("0.3.3")
-		library("kotlinx.datetime", "org.jetbrains.kotlinx", "kotlinx-datetime").version("0.5.0")
+		library("kotlinx.io", "org.jetbrains.kotlinx", "kotlinx-io-core").version("0.3.5")
+		library("kotlinx.datetime", "org.jetbrains.kotlinx", "kotlinx-datetime").version("0.6.0")
 		library("kotlinx.serialization", "org.jetbrains.kotlinx", "kotlinx-serialization-core").version("1.6.3")
 		library("kotlinx.json", "org.jetbrains.kotlinx", "kotlinx-serialization-json").version("1.6.3")
-		library("kotlinx.coroutines", "org.jetbrains.kotlinx", "kotlinx-coroutines-core").version("1.8.0")
+		library("kotlinx.coroutines", "org.jetbrains.kotlinx", "kotlinx-coroutines-core").version("1.8.1")
 
 		bundle(
 			"kotlinx", listOf(
@@ -50,7 +50,7 @@ catalog {
 			)
 		)
 
-		version("ktor", "2.3.10")
+		version("ktor", "2.3.11")
 
 		library("ktor.cio", "io.ktor", "ktor-server-cio").versionRef("ktor")
 		library("ktor.network", "io.ktor", "ktor-network").versionRef("ktor")
