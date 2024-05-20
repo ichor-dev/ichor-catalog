@@ -101,6 +101,7 @@ catalog {
 			"koin", listOf("koin.core", "koin.coroutines")
 		)
 
+		library("testing.koin", "io.insert-koin", "koin-test").version("3.5.6")
 		library("testing.junit", "org.junit.jupiter", "junit-jupiter-engine").version("5.10.2")
 		library("testing.kotlin.junit", "org.jetbrains.kotlin", "kotlin-test-junit5").versionRef("kotlin")
 		library("testing.kotlin.common", "org.jetbrains.kotlin", "kotlin-test-common").versionRef("kotlin")
