@@ -11,7 +11,7 @@ plugins {
 
 group = "fyi.pauli"
 
-version = "1.6.1"
+version = "1.6.2"
 
 val authors = setOf(
 	"kxmpxtxnt"
@@ -26,7 +26,7 @@ val githubRepo = "ichor-dev/ichor-catalog"
 
 catalog {
 	versionCatalog {
-		version("kotlin", "1.9.24")
+		version("kotlin", "2.0.0")
 
 		plugin("jetbrains.dokka", "org.jetbrains.dokka").version("1.9.20")
 		plugin("jetbrains.jvm", "org.jetbrains.kotlin.jvm").versionRef("kotlin")
@@ -80,7 +80,7 @@ catalog {
 			)
 		)
 
-		version("crypto", "0.3.0")
+		version("crypto", "0.3.1")
 
 		library("crypto.core", "dev.whyoleg.cryptography", "cryptography-core").versionRef("crypto")
 		library("crypto.providers.jdk", "dev.whyoleg.cryptography", "cryptography-provider-jdk").versionRef("crypto")
