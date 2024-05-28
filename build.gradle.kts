@@ -11,7 +11,7 @@ plugins {
 
 group = "fyi.pauli"
 
-version = "1.6.2"
+version = "1.6.3"
 
 val authors = setOf(
 	"kxmpxtxnt"
@@ -94,7 +94,7 @@ catalog {
 		library("bignum", "com.ionspin.kotlin", "bignum").version("0.3.9")
 		library("logging", "io.github.oshai", "kotlin-logging").version("6.0.9")
 		library("logging.jvm", "io.github.oshai", "kotlin-logging-jvm").version("6.0.9")
-		library("logging.linuxX64", "io.github.oshai", "kotlin-logging-linux").version("6.0.9")
+		library("logging.linuxX64", "io.github.oshai", "kotlin-logging-linuxx64").version("6.0.9")
 
 		library("koin.core", "io.insert-koin", "koin-core").version("3.5.6")
 		library("koin.coroutines", "io.insert-koin", "koin-core-coroutines").version("3.5.6")
