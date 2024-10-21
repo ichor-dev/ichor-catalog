@@ -26,7 +26,7 @@ val githubRepo = "ichor-dev/ichor-catalog"
 
 catalog {
 	versionCatalog {
-		version("kotlin", "2.0.0")
+		version("kotlin", "2.0.21")
 
 		plugin("jetbrains.dokka", "org.jetbrains.dokka").version("1.9.20")
 		plugin("jetbrains.jvm", "org.jetbrains.kotlin.jvm").versionRef("kotlin")
@@ -38,11 +38,11 @@ catalog {
 		library("pauli.prorialize", "fyi.pauli.prorialize", "prorialize").version("1.1.3")
 		library("pauli.nbterialize", "fyi.pauli.nbterialize", "nbterialize").version("1.0.3")
 
-		library("kotlinx.io", "org.jetbrains.kotlinx", "kotlinx-io-core").version("0.3.5")
-		library("kotlinx.datetime", "org.jetbrains.kotlinx", "kotlinx-datetime").version("0.6.0")
-		library("kotlinx.serialization", "org.jetbrains.kotlinx", "kotlinx-serialization-core").version("1.6.3")
-		library("kotlinx.json", "org.jetbrains.kotlinx", "kotlinx-serialization-json").version("1.6.3")
-		library("kotlinx.coroutines", "org.jetbrains.kotlinx", "kotlinx-coroutines-core").version("1.8.1")
+		library("kotlinx.io", "org.jetbrains.kotlinx", "kotlinx-io-core").version("0.5.4")
+		library("kotlinx.datetime", "org.jetbrains.kotlinx", "kotlinx-datetime").version("0.6.1")
+		library("kotlinx.serialization", "org.jetbrains.kotlinx", "kotlinx-serialization-core").version("1.7.3")
+		library("kotlinx.json", "org.jetbrains.kotlinx", "kotlinx-serialization-json").version("1.7.3")
+		library("kotlinx.coroutines", "org.jetbrains.kotlinx", "kotlinx-coroutines-core").version("1.9.0")
 
 		bundle(
 			"kotlinx", listOf(
@@ -50,7 +50,7 @@ catalog {
 			)
 		)
 
-		version("ktor", "2.3.11")
+		version("ktor", "3.0.0")
 
 		library("ktor.cio", "io.ktor", "ktor-server-cio").versionRef("ktor")
 		library("ktor.network", "io.ktor", "ktor-network").versionRef("ktor")
@@ -80,7 +80,7 @@ catalog {
 			)
 		)
 
-		version("crypto", "0.3.1")
+		version("crypto", "0.4.0")
 
 		library("crypto.core", "dev.whyoleg.cryptography", "cryptography-core").versionRef("crypto")
 		library("crypto.providers.jdk", "dev.whyoleg.cryptography", "cryptography-provider-jdk").versionRef("crypto")
@@ -90,21 +90,21 @@ catalog {
 		).versionRef("crypto")
 
 		library("uuid", "com.benasher44", "uuid").version("0.8.4")
-		library("ktoml", "com.akuleshov7", "ktoml-core").version("0.5.1")
-		library("bignum", "com.ionspin.kotlin", "bignum").version("0.3.9")
-		library("logging", "io.github.oshai", "kotlin-logging").version("6.0.9")
-		library("logging.jvm", "io.github.oshai", "kotlin-logging-jvm").version("6.0.9")
-		library("logging.linuxX64", "io.github.oshai", "kotlin-logging-linuxx64").version("6.0.9")
+		library("ktoml", "com.akuleshov7", "ktoml-core").version("0.5.2")
+		library("bignum", "com.ionspin.kotlin", "bignum").version("0.3.10")
+		library("logging", "io.github.oshai", "kotlin-logging").version("7.0.0")
+		library("logging.jvm", "io.github.oshai", "kotlin-logging-jvm").version("7.0.0")
+		library("logging.linuxX64", "io.github.oshai", "kotlin-logging-linuxx64").version("7.0.0")
 
-		library("koin.core", "io.insert-koin", "koin-core").version("3.5.6")
-		library("koin.coroutines", "io.insert-koin", "koin-core-coroutines").version("3.5.6")
+		library("koin.core", "io.insert-koin", "koin-core").version("4.0.0")
+		library("koin.coroutines", "io.insert-koin", "koin-core-coroutines").version("4.0.0")
 
 		bundle(
 			"koin", listOf("koin.core", "koin.coroutines")
 		)
 
-		library("testing.koin", "io.insert-koin", "koin-test").version("3.5.6")
-		library("testing.junit", "org.junit.jupiter", "junit-jupiter-engine").version("5.10.2")
+		library("testing.koin", "io.insert-koin", "koin-test").version("4.0.0")
+		library("testing.junit", "org.junit.jupiter", "junit-jupiter-engine").version("5.11.3")
 		library("testing.kotlin.junit", "org.jetbrains.kotlin", "kotlin-test-junit5").versionRef("kotlin")
 		library("testing.kotlin.common", "org.jetbrains.kotlin", "kotlin-test-common").versionRef("kotlin")
 		library("testing.kotlin.annotations", "org.jetbrains.kotlin", "kotlin-test-annotations-common").versionRef("kotlin")
