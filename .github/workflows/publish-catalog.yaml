@@ -22,6 +22,6 @@ jobs:
           distribution: temurin
           java-version: 21
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
+        uses: gradle/actions/setup-gradle@v4
       - name: Release to nyon repo.
         run: ./gradlew build publish -PREPO_NYON_USERNAME=${{ secrets.NYON_USERNAME }} -PREPO_NYON_PASSWORD=${{ secrets.NYON_PASSWORD }}
